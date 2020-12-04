@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       这是n:{n}<button onClick={() => setn(n + 1)}>n++</button>
-      年龄：{age}<button onClick={() => setAge(age + 2)}>age+2</button>
+      年龄：{age}<button onClick={() => setAge(age + 4)}>age+2</button>
       变性：{man ? 'man' : 'gay'}<button onClick={() => setSex(!man)}>change</button>
     </div>
   );
