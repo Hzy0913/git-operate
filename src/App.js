@@ -7,7 +7,7 @@ function App() {
   const [n, setn] = useState(1);
   if (change) {
     const [age, setAge] = useState(10);
-    change = 0;
+    change = 1;
   } else {
 
   }
